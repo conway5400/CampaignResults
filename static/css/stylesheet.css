@@ -1,0 +1,67 @@
+#container {
+    width: 500px;
+    margin: 30px auto;
+    border: 2px solid black;
+    padding: 0px 20px 30px;
+    background: whitesmoke;
+}
+
+input {
+    text-align: center;
+    font-size: 20px;
+    width: 300px;
+}
+
+button {
+    font-size: 20px;
+}
+
+
+body {
+    background: aliceblue;
+}
+
+
+
+#header {
+    text-align: center;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+}
+
+#lastUpdated {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+#footer {
+    text-align: center;
+}
+
+#resultsTable table, th, td {
+   border: 3px solid black;
+   text-align: center;
+   padding: 5px 30px;
+}
+
+#resultsTable th {
+   font-size: 35px;
+   border: none;
+}
+
+#resultsTable td {
+    font-size: 50px;
+}
+
+#resultsTable {
+    margin: 0 auto;
+}
+
+#resultsBody {
+    text-align: center;
+}
+
+
+#subscribersTable th, #subscribersTable td {
+    border: none;
+}

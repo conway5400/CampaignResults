@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seth Campaign Results</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/stylesheet.css') }}">
+
+</head>
+<body>
+    <div id="container">
+        <h1>Subscribers</h1>
+        <table id="subscribersTable">
+            <thead>
+                <tr>
+                    <th>Phone Number</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for subscriber in content.subscribers %}
+                    <tr>
+                        <td>{{ subscriber|safe }}</td>
+                        <td><a href="/subscribers/delete/{{ subscriber|safe }}">Delete</a></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+</body>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</html>
