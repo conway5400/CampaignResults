@@ -15,7 +15,7 @@ idna==2.6
 ipaddress==1.0.18
 itsdangerous==0.24
 Jinja2==2.9.6
-lxml==4.1.0
+lxml==4.6.3
 MarkupSafe==1.0
 pycparser==2.18
 PyJWT==1.5.3
