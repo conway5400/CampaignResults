@@ -25,5 +25,5 @@ requests==2.18.4
 six==1.11.0
 twilio==6.8.0
 tzlocal==1.4
-urllib3==1.22
+urllib3==1.26.5
 Werkzeug==0.12.2
